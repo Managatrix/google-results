@@ -182,10 +182,30 @@ nav.header a:active {
 }
 
 nav.header ul.bottomr {
-  margin-right: 574px;
+  margin-right: 633px;
   padding-left: 0;
 }
 
-nav.header ul.bottomr a {
-  padding-right: 15px;
+nav.header a[name=outils] {
+  position: absolute;
+  bottom: 525px;
+  right: 573px;
+  line-height: 19px;
+  margin-left: -1px;
+  padding: 4px 15px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #FAFAFA;
+}
+
+nav.header a[name=outils]:hover {
+  background-color: #f7f7f7;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+nav.header a[name=outils]:active {
+  color: #000;
+  background-color: #F3F3F3;
+  border: #EEE 1px solid;
 }
