@@ -1,10 +1,13 @@
+body {
+  font-family: arial;
+}
+
 ul {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  font-family: arial;
 }
 
 body {
@@ -22,7 +25,6 @@ ul.greenbtn {
 ul.greenbtn li a {
     display: inline-block;
     text-align: center;
-    font-family: arial;
     font-size: 14px;
     color: black;
 }
@@ -104,7 +106,7 @@ button[name=search] {
 
 nav.header form {
   position: relative;
-  left: -16px;
+  left: -15px;
   top: -10px;
   color: black;
   box-shadow: 0 2px 1px #E1E1E1;
@@ -131,6 +133,7 @@ nav.header a.bell img {
 
 nav.header a.apps img {
   width: 30px;
+  padding-right: 1px;
   top: -1px;
   bottom: 0;
 }
@@ -159,7 +162,7 @@ nav.header ul.topr {
 }
 
 nav.header ul.bottoml a, ul.bottomr a {
-  margin-right: 11px;
+  margin-right: 12px;
   padding-right: 16px;
   position: relative;
   bottom: 15px;
@@ -188,8 +191,9 @@ nav.header ul.bottomr {
 
 nav.header a[name=outils] {
   position: absolute;
-  bottom: 525px;
-  right: 573px;
+  top: 85px;
+  bottom: auto;
+  right: 572px;
   line-height: 19px;
   margin-left: -1px;
   padding: 4px 15px;
@@ -208,4 +212,43 @@ nav.header a[name=outils]:active {
   color: #000;
   background-color: #F3F3F3;
   border: #EEE 1px solid;
+}
+/* Main content */
+div.content {
+  margin-left: 166px;
+  margin-right: 572px;
+}
+
+div.content header p {
+  margin: 0;
+  height: 43px;
+}
+
+div.content header {
+  color: rgb(128, 128, 128);
+  font-size: 13px;
+}
+
+div.content ul.links {
+  padding: 0;
+  margin: 0;
+}
+
+div.content ul.links h3 {
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+div.content ul.links h3 a {
+  color: rgb(26, 13, 171);
+  font-size: 18px;
+  font-weight: 400;
+}
+div.content ul.links h3 a:hover {
+  text-decoration: underline;
+}
+
+span.URL {
+  color: rgb(0, 102, 33);
+  font-size: 14px;
 }
