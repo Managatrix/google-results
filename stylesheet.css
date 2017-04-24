@@ -15,11 +15,17 @@ body {
 }
 /* GREEN BTN */
 a.dropbtn img {
-  width: 10px;
+  width: 8px;
+  height: 5px;
 }
 
 ul.greenbtn {
     display: inline;
+    padding: 0;
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+    margin-right: 3px;
 }
 
 ul.greenbtn li a {
@@ -216,7 +222,7 @@ nav.header a[name=outils]:active {
 /* Main content */
 div.content {
   margin-left: 166px;
-  margin-right: 572px;
+  width: 600px;
 }
 
 div.content header p {
@@ -234,6 +240,10 @@ div.content ul.links {
   margin: 0;
 }
 
+div.content li.preview {
+  margin-bottom: 28px;
+}
+
 div.content ul.links h3 {
   margin-bottom: 1px;
   margin-top: 10px;
@@ -248,7 +258,33 @@ div.content ul.links h3 a:hover {
   text-decoration: underline;
 }
 
-span.URL {
+div.content span.URL {
   color: rgb(0, 102, 33);
   font-size: 14px;
+}
+
+div.content span.translate {
+  color: rgb(26, 13, 171);
+  font-size: 14px;
+}
+
+div.content  span.date {
+  color: #808080;
+  font-size: 13px;
+  margin: 0;
+}
+
+div.content ul.links p {
+  color: #545454;
+  font-size: 13px;
+  margin: 0;
+  line-height: 18.2px;
+}
+
+div.content ul.links strong {
+  color: #6a6a6a;
+}
+
+div.content span.visited {
+
 }
