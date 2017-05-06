@@ -23,7 +23,7 @@ ul.greenbtn {
     display: inline;
     padding: 0;
     position: relative;
-    bottom: 2px;
+    bottom: 3px;
     left: 2px;
     margin-right: 3px;
 }
@@ -88,7 +88,7 @@ nav.header img[name=google] {
   width: 120px;
   position: relative;
   left: -27px;
-  top: 3px;
+  top: 7px;
 }
 
 nav.header input[name=bar] {
@@ -103,9 +103,9 @@ nav.header input[name=bar] {
 button[name=search] {
   border: 0;
   position: absolute;
-  left: 572px;
+  left: 573px;
   height: 44px;
-  width: 58px;
+  width: 59px;
   padding-right: 5px;
   background-color: white;
 }
@@ -159,12 +159,12 @@ nav.header ul.topr a {
 }
 
 ul.topr a.profile {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 nav.header ul.topr {
   margin-top: 27px;
-  margin-right: 14px; /* REVIEW: without scrollbar */
+  margin-right: 14px;
 }
 
 nav.header ul.bottoml a, ul.bottomr a {
@@ -191,15 +191,15 @@ nav.header a:active {
 }
 
 nav.header ul.bottomr {
-  margin-right: 633px;
+  margin-right: 623px;
   padding-left: 0;
 }
 
-nav.header a[name=outils] {
+nav.header a[name=outils] { /* REVIEW: Bad positioning */
   position: absolute;
   top: 85px;
   bottom: auto;
-  right: 572px;
+  right: 562px;
   line-height: 19px;
   margin-left: -1px;
   padding: 4px 15px;
