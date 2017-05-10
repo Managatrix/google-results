@@ -268,7 +268,7 @@ div.content span.translate {
   font-size: 14px;
 }
 
-div.content  span.date {
+div.content span.date {
   color: #808080;
   font-size: 13px;
   margin: 0;
@@ -287,4 +287,17 @@ div.content ul.links strong {
 
 div.content span.visited {
 
+}
+/* Gooooooooooogle */
+div.content nav.google ul li {
+  display: inline-block;
+  float: center;
+  position: relative;
+  left: 97px;
+  bottom: 8px;
+}
+
+div.content nav.google #gle {
+  position: relative;
+  top: 7px;
 }
