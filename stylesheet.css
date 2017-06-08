@@ -339,3 +339,48 @@ div.content nav.google ul.bottom li a:hover
 /*div.content nav.google ul.top li:nth-child(5):hover ~ li:nth-child(4)*/ /* REVIEW: Underline number when image above is hovered */{
   text-decoration: underline;
 }
+/* footer */
+nav.footer {
+  font-size: 13px;
+  position: relative;
+  bottom: -5px;
+  background-color: #F2F2F2;
+  height: 82px;
+  border-top: 1px solid #E4E4E4;
+  line-height: 21px;
+}
+
+nav.footer div.topf ul, nav.footer div.bottomf ul {
+  margin-left: 126px;
+}
+
+nav.footer div.topf ul {
+  margin-top: 18px;
+}
+
+nav.footer ul li, nav.footer ul li div {
+  display: inline-block;
+}
+
+nav.footer div.topf li div {
+  background-color: #9e9e9e;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+nav.footer div.topf li span {
+  color: #aaaaaa;
+}
+
+nav.footer a {
+  color: #777777;
+}
+
+nav.footer div.bottomf a {
+  margin-right: 27px;
+}
+
+nav.footer a:hover {
+  color: #333;
+}
